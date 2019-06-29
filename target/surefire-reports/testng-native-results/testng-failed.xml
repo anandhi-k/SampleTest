@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="SampleTest.SampleTest.SauceLabTest">
+        <methods>
+          <include name="test01_getPageHeader"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SampleTest.SampleTest.SauceLabTest -->
+      <class name="SampleTest.SampleTest.SauceLatTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test01_getPageHeader"/>
+        </methods>
+      </class> <!-- SampleTest.SampleTest.SauceLatTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
